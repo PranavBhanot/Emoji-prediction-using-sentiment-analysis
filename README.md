@@ -32,9 +32,3 @@ Embedding Layer: To convert words into dense vectors.
 LSTM Layer(s): Capturing sequential patterns in the text data.
 Dense Layer: Making emoji predictions based on LSTM outputs.
 You can customize the architecture in the model.py file based on your requirements.
-
-## Training
-To train the model, you should run the train.py script. It loads the preprocessed dataset, builds the LSTM model, and trains it using the specified hyperparameters. You can adjust hyperparameters like batch size, learning rate, and epochs to optimize performance.
-
-## Inference
-After training, you can use the trained model to predict emojis for text input. The predict.py script takes an input text and returns the predicted emoji.
